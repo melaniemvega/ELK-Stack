@@ -30,12 +30,11 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below.
 
-
 | Name       | Function      | IP Address | Operating System          |  
-|--------- --|---------------|------------|---------------------------|
+|------------|---------------|------------|---------------------------|
 | Jump Box   | Gateway       | 10.0.0.7   | Linux - Ubuntu 18.04-LTS  |
 | Elk Server | Cloud Monitor | 10.1.0.4   | Linux - Ubuntu 18.04-LTS  |
-| Web-1      | Web Server    | 10.0.0.5   |  Linux - Ubuntu 18.04-LTS |
+| Web-1      | Web Server    | 10.0.0.5   | Linux - Ubuntu 18.04-LTS  |
 | Web-2      | Web Server    | 10.0.0.6   | Linux - Ubuntu 18.04-LTS  |
 | DVWA-VM3   | Web Server    | 10.0.0.1   | Linux - Ubuntu 18.04-LTS  |
 
