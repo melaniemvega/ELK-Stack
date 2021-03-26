@@ -1,32 +1,3 @@
-# Defines if the HTTP endpoint is enabled.
-#http.enabled: false
-
-# The HTTP endpoint will bind to this hostname, IP address, unix socket or named pipe.
-# When using IP addresses, it is recommended to only use localhost.
-#http.host: localhost
-
-# Port on which the HTTP endpoint will bind. Default is 5066.
-#http.port: 5066
-
-# Define which user should be owning the named pipe.
-#http.named_pipe.user:
-
-# Define which the permissions that should be applied to the named pipe, use the Security
-# Descriptor Definition Language (SDDL) to define the permission. This option cannot be used with
-# `http.user`.
-#http.named_pipe.security_descriptor:
-
-#============================= Process Security ================================
-
-# Enable or disable seccomp system call filtering on Linux. Default is enabled.
-#seccomp.enabled: true
-
-#================================= Migration ==================================
-
-# This allows to enable 6.7 migration aliases
-#migration.6_to_7.enabled: false
-root@e40f78fbfde3:/etc/ansible/files# clear
-root@e40f78fbfde3:/etc/ansible/files# cat filebeat-config.yml
 ######################## Filebeat Configuration ############################
 # This file is a full configuration example documenting all non-deprecated
 # options in comments. For a shorter configuration example, that contains only
