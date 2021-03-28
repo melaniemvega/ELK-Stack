@@ -46,7 +46,7 @@ The machines on the internal network are not exposed to the public Internet.
 Only the Jumpbox, Elk Server and Load Balancer machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - Jumpbox (40.117.145.95)
 - Elk Server (52.237.160.182)
-- Load Balaner (40.121.135.134)
+- Load Balancer (40.121.135.134)
 
 Machines within the network can only be accessed by my perosnal IP.
 - Personal Laptop IP (71.201.212.82)
@@ -55,7 +55,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name                           |  Publicly Accessible | Allowed IP Addresses              |
 |--------------------------------|----------------------|-----------------------------------|
-| Jump Box - Port 22             | Yes                  | Personal IP address               |
+| Jump Box -   Port 22           | Yes                  | Personal IP address               |
 | Elk Server - Port 5601         | Yes                  | 10.1.0.4                          |
 | Web Server - Port 22           | No                   | 10.0.0.4                          |
 | DVWA Load Balancer - Port 80   | Yes                  | 71.201.212.82 Local home network  |
