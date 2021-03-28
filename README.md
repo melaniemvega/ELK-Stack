@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 install-elk.yml
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -22,8 +22,8 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting unwanted traffic to the network.
-- _TODO: What aspect of security do load balancers protect? (availability for traffic so servers dont go down to control traffic)
-- What is the advantage of a jump box?_ (secure backend access)
+- Availability for traffic so servers do not go down and to control traffic
+- Jumpbox for a secure backend access
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
 - _TODO: What does Filebeat watch for?_
