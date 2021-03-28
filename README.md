@@ -25,9 +25,9 @@ Load balancing ensures that the application will be highly available, in additio
 - Availability for traffic so servers do not go down and to control traffic
 - Jumpbox for a secure backend access
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log files and system metrics.
+- Filebeat helps generate and organize giles to send to Logstash and Elesticsearch. It specifially logs inforamiton about the file system, including which files hae chaneges and when.
+- Metricbeat monitors the metrics of the DVWA virtual machines.
 
 The configuration details of each machine may be found below.
 
@@ -51,11 +51,12 @@ Machines within the network can only be accessed by _____.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name                           |  Publicly Accessible | Allowed IP Addresses              |
+|--------------------------------|----------------------|-----------------------------------|
+| Jump Box - Port 22             | Yes                  | Personal IP address               |
+| Elk Server - Port 5601         | Yes                  | 10.1.0.4                          |
+| Web Server - Port 22           | No                   | 10.0.0.4                          |
+| DVWA Load Balancer - Port 80   | Yes                  | 71.201.212.82 Local home network  |
 
 ### Elk Configuration
 
