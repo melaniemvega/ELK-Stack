@@ -48,8 +48,8 @@ Only the Jumpbox, Elk Server and Load Balancer machine can accept connections fr
 - Elk Server (52.237.160.182)
 - Load Balaner (40.121.135.134)
 
-Machines within the network can only be accessed by _____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+Machines within the network can only be accessed by my perosnal IP.
+- Personal Laptop IP (71.201.212.82)
 
 A summary of the access policies in place can be found in the table below.
 
