@@ -22,14 +22,14 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting unwanted traffic to the network.
-- Availability for traffic so servers do not go down and to control traffic
-- Jumpbox for a secure backend access
+- A Load Balancer can insure availability for all servers by being evenly distributed
+- A jump box is a single operating system, that is connected to two networks. The first of these networks is the common network and the second is the sensitive security zone.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log files and system metrics.
-- Filebeat helps generate and organize giles to send to Logstash and Elesticsearch. It specifially logs inforamiton about the file system, including which files hae chaneges and when.
+- Filebeat helps generate and organize files to send to Logstash and Elesticsearch. It specifially logs inforamiton about the file system, including which files hae chaneges and when.
 - Metricbeat monitors the metrics of the DVWA virtual machines.
 
-The configuration details of each machine may be found below.
+The configuration details of each machine may be found below:
 
 | Name       | Function      | IP Address | Operating System          |  
 |------------|---------------|------------|---------------------------|
