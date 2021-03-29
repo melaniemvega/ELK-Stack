@@ -95,8 +95,9 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Copy the `install-elk.yml` file to `/etc/ansible`.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Update the `host` file to include updated IP on lines `1106` amd `1806` inside the `filebeats_config.yml` file
+- Run the playbook, and navigate to the `Kibana Server` to check that the installation worked as expected. 
+- http://52.237.160.182:5601/app/kibana
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
